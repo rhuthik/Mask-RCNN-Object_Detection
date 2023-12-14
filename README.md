@@ -40,4 +40,4 @@ python3 mask_rcnn.py
 ![image output](/cars_mask_rcnn_out_py.jpg)
 
 ### Video Output
-Link to video result: Mask R-CNN Result on Video
+![video output](/cars_mask_rcnn_out_py.avi)
