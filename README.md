@@ -37,7 +37,7 @@ python3 mask_rcnn.py
 ```
 ## Results
 ### Image Output
-![image output](/main/cars_mask_rcnn_out_py.jpg)
+![image output](/cars_mask_rcnn_out_py.jpg)
 
 ### Video Output
 Link to video result: Mask R-CNN Result on Video
