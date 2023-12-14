@@ -1,5 +1,7 @@
 # Mask-RCNN-Object_Detection
 
+![Screenshot from 2023-12-14 14-50-54](https://github.com/rhuthik/Mask-RCNN-Object_Detection/assets/59531096/39d2af86-1bb1-493f-a69e-bf22407832ad)
+
 ## Overview
 This project implements the [Mask R-CNN ](https://arxiv.org/pdf/1703.06870.pdf)(He et al., ICCV 2017) algorithm using OpenCV in Python. Mask R-CNN is an extension of Faster R-CNN that adds a branch for predicting segmentation masks on each Region of Interest (RoI), parallel to the existing branch for classification and bounding box regression. The implementation runs efficiently on GPUs and can also be executed on CPUs for testing purposes.
 
