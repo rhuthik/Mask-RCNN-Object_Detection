@@ -39,9 +39,4 @@ python3 mask_rcnn.py
 ### Image Output
 ![image output](/cars_mask_rcnn_out_py.jpg)
 
-### Video Output
-![video output]([/cars_mask_rcnn_out_py.avi](https://github.com/rhuthik/Mask-RCNN-Object_Detection/assets/59531096/075a659d-6c03-4865-a494-f9712faf210d))
-
-https://github.com/rhuthik/Mask-RCNN-Object_Detection/assets/59531096/075a659d-6c03-4865-a494-f9712faf210d
-
 
