@@ -8,18 +8,14 @@ Our implementation uses the InceptionV2 backbone for a balance between speed and
 ## Installation
 ### Step 1: Download the Model
 Download and extract the pre-trained Mask R-CNN InceptionV2 model:
-
-bash
-Copy code
+\`\`\`
 wget http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz
 tar zxvf mask_rcnn_inception_v2_coco_2018_01_28.tar.gz
+\`\`\`
 ### Step 2: Initialize Parameters
 Set the confidence and mask thresholds in the script. The default values are:
-
-python
-Copy code
-confThreshold = 0.5  # Confidence threshold
-maskThreshold = 0.3  # Mask threshold
+0.5  # Confidence threshold
+0.3  # Mask threshold
 ### Step 3: Load the Model and Classes
 The script reads class names from mscoco_labels.names and color mappings from colors.txt. The model is loaded with the frozen_inference_graph.pb and mask_rcnn_inception_v2_coco_2018_01_28.pbtxt files.
 
@@ -28,14 +24,17 @@ The script accepts both image and video inputs. For video inputs, including webc
 
 ## Usage
 To run the Mask R-CNN on an image:
-
+\`\`\`
 python3 mask_rcnn.py --image=cars.jpg
+\`\`\`
 To run the Mask R-CNN on a video:
-
+\`\`\`
 python3 mask_rcnn.py --video=cars.mp4
+\`\`\`
 By default, if no argument is provided, the script starts the webcam:
-
+\`\`\`
 python3 mask_rcnn.py
+\`\`\`
 ## Results
 ### Image Output
 Mask R-CNN Result on Image
